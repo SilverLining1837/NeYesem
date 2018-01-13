@@ -8,7 +8,7 @@ public class StrongAES
         try 
         {
             String text = "Evren Ergen";
-            String key = "W1ngard1umLev1os"; // 128 bit key
+            String key = "deneme"; // 128 bit key
             // Create key and cipher
             Key aesKey = new SecretKeySpec(key.getBytes(), "AES");
             Cipher cipher = Cipher.getInstance("AES");
